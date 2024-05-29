@@ -1,0 +1,38 @@
+
+.btn_shadow3 {
+  padding: 5px 18px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  transition: 0.5s;
+  width:100%;
+}
+.btn_shadow3 p:hover{
+  color: #fff;
+}
+.btn_shadow3 {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow3:hover {
+  background: navy;
+  color: white;
+  transform: translateY(-10px);
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+@media (max-width: 768px) {
+  .btn_shadow3 img{
+    width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  .grid3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+}
+}
